@@ -1,0 +1,503 @@
+html {
+  background: linear-gradient(to right, rgb(34, 33, 33), rgba(30, 35, 77, 1));
+}
+
+body {
+  background: linear-gradient(to right, rgb(34, 33, 33), rgba(30, 35, 77, 1));
+}
+
+h1 {
+  font-family: copperplate;
+  font-size: 45px;
+  text-align: center;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+  border-bottom-width: 4px;
+}
+
+ul {
+  font-family: copperplate;
+  font-size: 29px;
+  list-style-type: none;
+  margin: 0px auto;
+  padding: 30px;
+}
+
+ul {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+li a{
+  padding: 40px;
+  
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(13, 3, 104);
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 40px;
+  color: gainsboro;
+  font-family: copperplate;
+  position: absolute;
+  top: 30px;
+  left: 16px;
+}
+.column2{
+  float: left;
+  width: 33.33%;
+  padding: 40px;
+  color: gainsboro;
+  font-family: copperplate;
+  position: absolute;
+  top: 30px;
+  right: 16px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+img:hover {
+  box-shadow: 0 0 2px 4px rgb(5, 63, 82);
+  border-radius: 50%;
+}
+/*background of 2Pac and Big on the Eastside westside page*/
+#Mids{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.3;
+}
+
+#Mids2{
+   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.3;
+}
+
+/*Home page picture 1: biggie */
+.container {
+  position: absolute;
+  bottom: 70px;
+  left: 16px;
+  width: 26%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: rgba(14, 2, 182, 0.925);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: rgb(96, 134, 150);
+  font-size: 16px;
+  font-family: copperplate;
+  position: absolute;
+  text-align: center;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+/*homepage picture 2: Pac*/
+.container2 {
+ position: absolute;
+  bottom: 70px;
+  right: 16px;
+  width: 26%;
+}
+
+.image2 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay2 {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: rgba(14, 2, 182, 0.925);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container2:hover .overlay2{
+  bottom: 0;
+  height: 100%;
+}
+
+.text2 {
+  white-space: nowrap; 
+  color: rgb(96, 134, 150);
+  font-size: 18px;
+  font-family: copperplate;
+  position: absolute;
+  text-align: center;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+/*Text on biggie page*/
+.lol{
+  color: rgb(96, 134, 150);
+  font-family: copperplate;
+  font-size: 25px;
+}
+
+/*Notorious page: bottom left*/
+.container3 {
+  position: absolute;
+  bottom: 120px;
+  left: 16px;
+  width: 30%;
+}
+
+.image3 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay3 {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: rgba(15, 11, 78, 0.925);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container3:hover .overlay3{
+  bottom: 0;
+  height: 100%;
+}
+
+.text3 {
+  white-space: nowrap; 
+  color: rgb(96, 134, 150);
+  font-size: 18px;
+  font-family: copperplate;
+  position: absolute;
+  text-align: center;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+/*Notorious page mid bottom*/
+.container4 {
+  position: absolute;
+  bottom: 120px;
+  left: 400px;
+  width: 24%;
+}
+
+.image4 {
+  display: block;
+  width: 55%;
+  height: auto;
+}
+
+.overlay4 {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: rgba(15, 11, 78, 0.925);
+  overflow: hidden;
+  width: 55%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container4:hover .overlay4{
+  bottom: 0;
+  height: 100%;
+}
+
+.text4{
+  white-space: nowrap; 
+  color: rgb(96, 134, 150);
+  font-size: 18px;
+  font-family: copperplate;
+  position: absolute;
+  text-align: center;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+/*Notorious page: Bottom right*/
+.container5 {
+  position: absolute;
+  bottom: 120px;
+  right: 0;
+  width: 30%;
+}
+
+.image5 {
+  display: block;
+  width: 65%;
+  height: auto;
+}
+
+.overlay5 {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: rgba(15, 11, 78, 0.925);
+  overflow: hidden;
+  width: 55%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container5:hover .overlay5{
+  bottom: 0;
+  height: 100%;
+}
+
+.text5{
+  white-space: nowrap; 
+  color: rgb(96, 134, 150);
+  font-size: 18px;
+  font-family: copperplate;
+  position: absolute;
+  text-align: center;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+/*To change up <p> on the hompage: Biggie and Pac*/
+.Homepage{
+   color: rgb(96, 134, 150);
+  font-family: copperplate;
+  font-size: 16.5px;
+}
+/*Pac page: bottom right*/
+.container6 {
+  position: absolute;
+  bottom: 120px;
+  right: -100px;
+  width: 30%;
+}
+
+.image6 {
+  display: block;
+  width: 65%;
+  height: auto;
+}
+
+.overlay6 {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: rgba(15, 11, 78, 0.925);
+  overflow: hidden;
+  width: 55%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container6:hover .overlay6{
+  bottom: 0;
+  height: 100%;
+}
+
+.text6{
+  white-space: nowrap; 
+  color: rgb(96, 134, 150);
+  font-size: 18px;
+  font-family: copperplate;
+  position: absolute;
+  text-align: center;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+/*Pac page: bottom mid*/
+.container7 {
+  position: absolute;
+  bottom: 120px;
+  left: 400px;
+  width: 24%;
+}
+
+.image7 {
+  display: block;
+  width: 55%;
+  height: auto;
+}
+
+.overlay7 {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: rgba(15, 11, 78, 0.925);
+  overflow: hidden;
+  width: 55%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container7:hover .overlay7{
+  bottom: 0;
+  height: 100%;
+}
+
+.text7{
+  white-space: nowrap; 
+  color: rgb(96, 134, 150);
+  font-size: 18px;
+  font-family: copperplate;
+  position: absolute;
+  text-align: center;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+/*Pac page: bottom left*/
+.container8 {
+  position: absolute;
+  bottom: 120px;
+  left: 16px;
+  width: 20%;
+}
+
+.image8 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay8 {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: rgba(15, 11, 78, 0.925);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container8:hover .overlay8{
+  bottom: 0;
+  height: 100%;
+}
+
+.text8 {
+  white-space: nowrap; 
+  color: rgb(96, 134, 150);
+  font-size: 18px;
+  font-family: copperplate;
+  position: absolute;
+  text-align: center;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+ /*button settings*/
+button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+  border: none;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 28px;
+  font-family: copperplate;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+button:hover {
+  box-shadow: 0 0 2px 4px rgb(5, 63, 82);
+  border-radius: 50%;
+  padding-right:25px;
+}
+
+button:hover {
+  opacity: 3;
+  right: 0;
+}
+.finally{
+  position: absolute;
+  bottom: 200px;
+  left: 0px;
+  width: 40%;
+}
+
+.finally{
+  height: 120px;
+}
+.finally2{
+  position: absolute;
+  bottom: 200px;
+  right: 0px;
+  width: 40%;
+}
+.finally2{
+  height: 120px;
+}
+
+/*Text that comes off when clicked*/
